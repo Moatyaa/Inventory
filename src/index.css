@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+body {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+.container {
+  width: 95%;
+}
+
+.direction {
+  direction: rtl;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-sm {
+  background-color: #812e1d;
+  color: white;
+  font-weight: 500;
+}
+
+.font-sm:hover{
+  color: #400000;
+  background-color: transparent;
+}
+.full-height {
+  height: 100vh;
+}
+
+.nav {
+  height: 80px;
+} 
+
+.side-bar {
+  height: calc(100vh - 80px);
+  border-right: 1px solid #ddd;
+  width: 280px;
+  text-align: center;
+}
+
+.side-bar ul {
+  list-style: none;
+}
+
+.side-bar ul li {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.side-bar ul li:hover {
+  background-color: #dddddd30;
+}
+
+.b-shadow {
+  box-shadow:rgba(145, 158, 171, .2) 0px 2px 4px -1px, rgba(145, 158, 171, .12) 0px 1px 10px 0px;
+}
+
+.loginBg {
+  background-image: url(../public/Assets/1.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.loginBrdr {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+}
+
+input::placeholder {
+  color: white
+}
+
+.marginForm {
+  margin-top: 100px;
+}
+
+.sub-button {
+  background-color: transparent;
+  padding: 7px 15px;
+  background-color: #400000 !important;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.fw {
+  font-weight: 500;
+}
+
+.user-data p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.large-fs {
+  font-size: 24px;
+}
+
+.text-color {
+  color: #812e1d;
+}
+
+.bg-img {
+  width: 250px;
+  height: 40px;
+  background-image: url(../public/Assets/logo.png.gif);
+  background-size: cover;
+  background-position: center center;
+}
+
+.logo {
+  margin-left: 20px;
+  border-right: 1px solid #ddd;
+  padding-right: 9px;
+}
+
+.dis-link-style{
+  text-decoration: none;
+  color: black;
+}
+
+.home-content {
+  width: calc(100% - 280px);
+  background-color: #dddddd69;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.addItem {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background-color: #90909078;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fontFamily{
+  font-family: "IBM Plex Sans Arabic", "sans-serif"
+}
+
+.ant-modal-footer {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.float {
+  float: left;
+}
